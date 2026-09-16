@@ -1,0 +1,38 @@
+# ============================================================
+# Oxford-IIIT Pet 细粒度分类 —— 依赖清单
+#
+# ⚠️ 重要：PyTorch 必须通过 CUDA 专用源安装，
+#    直接用 `pip install torch` 会装成 CPU 版（torch.cuda.is_available() 返回 False）。
+#
+# 正确的安装顺序：
+#   1) 先装 PyTorch（按自己的 CUDA 版本选择 cu126 / cu124 / cu118）
+#      pip install torch==2.14.0 torchvision==0.29.0 \
+#          --index-url https://download.pytorch.org/whl/cu126
+#   2) 再装其余依赖（此时 torch 已满足，不会被覆盖）
+#      pip install -r requirements.txt
+# ============================================================
+
+# --- 深度学习框架（CUDA 版，见上方说明）---
+torch==2.14.0
+torchvision==0.29.0
+
+# --- 数值与图像 ---
+numpy==2.4.6
+pillow==12.3.0
+pandas==3.0.5
+
+# --- 数据划分与指标 ---
+scikit-learn==1.9.1
+
+# --- 可视化 ---
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# --- 训练日志 ---
+tensorboard==2.21.0
+
+# --- 进度条 ---
+tqdm==4.70.1
+
+# --- Grad-CAM 热力图 ---
+grad-cam==1.5.7

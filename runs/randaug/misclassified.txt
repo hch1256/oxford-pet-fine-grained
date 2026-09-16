@@ -1,0 +1,101 @@
+真实标签	预测标签	置信度	文件路径
+Bengal	Egyptian Mau	0.5658	Bengal_139.jpg
+American Bulldog	Staffordshire Bull Terrier	0.7209	american_bulldog_91.jpg
+Chihuahua	Miniature Pinscher	0.4994	chihuahua_149.jpg
+Maine Coon	Bengal	0.4507	Maine_Coon_69.jpg
+Russian Blue	Maine Coon	0.3334	Russian_Blue_216.jpg
+Birman	Ragdoll	0.9977	Birman_138.jpg
+British Shorthair	Russian Blue	0.5782	British_Shorthair_32.jpg
+Wheaten Terrier	English Cocker Spaniel	0.3015	wheaten_terrier_88.jpg
+Shiba Inu	Miniature Pinscher	0.4463	shiba_inu_162.jpg
+Bengal	Egyptian Mau	0.6804	Bengal_161.jpg
+Persian	Bombay	0.8638	Persian_228.jpg
+Ragdoll	Siamese	0.9858	Ragdoll_235.jpg
+Egyptian Mau	Bengal	0.9370	Egyptian_Mau_214.jpg
+Chihuahua	Miniature Pinscher	0.7288	chihuahua_192.jpg
+Beagle	Shiba Inu	0.2661	beagle_181.jpg
+American Pit Bull Terrier	German Shorthaired	0.3966	american_pit_bull_terrier_89.jpg
+Staffordshire Bull Terrier	Boxer	0.4886	staffordshire_bull_terrier_160.jpg
+Keeshond	Leonberger	0.8959	keeshond_130.jpg
+English Cocker Spaniel	English Setter	0.4870	english_cocker_spaniel_123.jpg
+Abyssinian	Chihuahua	0.2747	Abyssinian_205.jpg
+Egyptian Mau	Bengal	0.8803	Egyptian_Mau_84.jpg
+Bengal	Abyssinian	0.6047	Bengal_165.jpg
+American Bulldog	English Setter	0.7149	american_bulldog_8.jpg
+Russian Blue	British Shorthair	0.3274	Russian_Blue_106.jpg
+Birman	Ragdoll	0.6443	Birman_101.jpg
+Ragdoll	Persian	0.5955	Ragdoll_170.jpg
+American Bulldog	Boxer	0.9806	american_bulldog_54.jpg
+Scottish Terrier	Havanese	0.6608	scottish_terrier_186.jpg
+English Cocker Spaniel	English Setter	0.4860	english_cocker_spaniel_52.jpg
+Siamese	Birman	0.5582	Siamese_63.jpg
+American Pit Bull Terrier	Staffordshire Bull Terrier	0.9041	american_pit_bull_terrier_43.jpg
+Chihuahua	Miniature Pinscher	0.7656	chihuahua_31.jpg
+Russian Blue	British Shorthair	0.6494	Russian_Blue_264.jpg
+British Shorthair	Egyptian Mau	0.4577	British_Shorthair_239.jpg
+Maine Coon	Leonberger	0.4036	Maine_Coon_33.jpg
+Maine Coon	Persian	0.6346	Maine_Coon_127.jpg
+American Bulldog	Staffordshire Bull Terrier	0.8728	american_bulldog_15.jpg
+Chihuahua	Miniature Pinscher	0.6340	chihuahua_166.jpg
+American Pit Bull Terrier	Chihuahua	0.4480	american_pit_bull_terrier_167.jpg
+American Pit Bull Terrier	German Shorthaired	0.6817	american_pit_bull_terrier_88.jpg
+American Pit Bull Terrier	Chihuahua	0.5211	american_pit_bull_terrier_190.jpg
+American Pit Bull Terrier	Miniature Pinscher	0.3154	american_pit_bull_terrier_121.jpg
+American Bulldog	American Pit Bull Terrier	0.6307	american_bulldog_43.jpg
+Ragdoll	Siamese	0.6532	Ragdoll_228.jpg
+Staffordshire Bull Terrier	Boxer	0.8346	staffordshire_bull_terrier_5.jpg
+Birman	Siamese	0.5051	Birman_55.jpg
+Beagle	American Pit Bull Terrier	0.4107	beagle_70.jpg
+English Setter	German Shorthaired	0.3354	english_setter_8.jpg
+American Pit Bull Terrier	Staffordshire Bull Terrier	0.9897	american_pit_bull_terrier_32.jpg
+Scottish Terrier	Havanese	0.7899	scottish_terrier_10.jpg
+Havanese	Scottish Terrier	0.7045	havanese_144.jpg
+Chihuahua	Miniature Pinscher	0.9827	chihuahua_159.jpg
+American Bulldog	German Shorthaired	0.4429	american_bulldog_75.jpg
+Keeshond	Leonberger	0.3666	keeshond_134.jpg
+American Bulldog	Basset Hound	0.3670	american_bulldog_68.jpg
+Staffordshire Bull Terrier	American Pit Bull Terrier	0.7311	staffordshire_bull_terrier_27.jpg
+British Shorthair	Russian Blue	0.5611	British_Shorthair_156.jpg
+Boxer	Basset Hound	0.3061	boxer_161.jpg
+Wheaten Terrier	Havanese	0.9459	wheaten_terrier_189.jpg
+Staffordshire Bull Terrier	American Bulldog	0.2102	staffordshire_bull_terrier_29.jpg
+Staffordshire Bull Terrier	Boxer	0.9551	staffordshire_bull_terrier_85.jpg
+American Pit Bull Terrier	Staffordshire Bull Terrier	0.7633	american_pit_bull_terrier_11.jpg
+Birman	Siamese	0.8206	Birman_36.jpg
+German Shorthaired	American Pit Bull Terrier	0.3488	german_shorthaired_119.jpg
+Great Pyrenees	Pomeranian	0.6691	great_pyrenees_7.jpg
+Abyssinian	Chihuahua	0.1829	Abyssinian_193.jpg
+English Setter	English Cocker Spaniel	0.6598	english_setter_165.jpg
+Bengal	Egyptian Mau	0.9907	Bengal_189.jpg
+Staffordshire Bull Terrier	Boxer	0.6445	staffordshire_bull_terrier_108.jpg
+British Shorthair	Russian Blue	0.4706	British_Shorthair_61.jpg
+Chihuahua	Miniature Pinscher	0.5553	chihuahua_58.jpg
+Scottish Terrier	Shiba Inu	0.1977	scottish_terrier_92.jpg
+American Pit Bull Terrier	Staffordshire Bull Terrier	0.3551	american_pit_bull_terrier_191.jpg
+Yorkshire Terrier	Scottish Terrier	0.6091	yorkshire_terrier_5.jpg
+Abyssinian	Russian Blue	0.2444	Abyssinian_33.jpg
+Shiba Inu	Miniature Pinscher	0.5112	shiba_inu_152.jpg
+Persian	Ragdoll	0.4813	Persian_143.jpg
+Keeshond	Pomeranian	0.7484	keeshond_195.jpg
+Staffordshire Bull Terrier	American Pit Bull Terrier	0.4249	staffordshire_bull_terrier_97.jpg
+Chihuahua	Yorkshire Terrier	0.8623	chihuahua_180.jpg
+Abyssinian	Maine Coon	0.4067	Abyssinian_94.jpg
+American Pit Bull Terrier	Beagle	0.4317	american_pit_bull_terrier_95.jpg
+Basset Hound	Beagle	0.7562	basset_hound_157.jpg
+British Shorthair	Russian Blue	0.5936	British_Shorthair_223.jpg
+British Shorthair	Russian Blue	0.5229	British_Shorthair_56.jpg
+Maine Coon	Bengal	0.6597	Maine_Coon_242.jpg
+Beagle	Shiba Inu	0.9804	beagle_152.jpg
+Saint Bernard	English Setter	0.5347	saint_bernard_42.jpg
+Chihuahua	Shiba Inu	0.6513	chihuahua_18.jpg
+Scottish Terrier	Havanese	0.5879	scottish_terrier_184.jpg
+Ragdoll	Birman	0.5189	Ragdoll_208.jpg
+Beagle	Basset Hound	0.2131	beagle_137.jpg
+English Cocker Spaniel	Havanese	0.8083	english_cocker_spaniel_195.jpg
+Ragdoll	Siamese	0.9740	Ragdoll_245.jpg
+Basset Hound	German Shorthaired	0.3023	basset_hound_92.jpg
+American Pit Bull Terrier	German Shorthaired	0.5449	american_pit_bull_terrier_4.jpg
+American Pit Bull Terrier	Staffordshire Bull Terrier	0.4268	american_pit_bull_terrier_54.jpg
+Miniature Pinscher	Chihuahua	0.5315	miniature_pinscher_148.jpg
+Leonberger	Boxer	0.5258	leonberger_11.jpg
+Samoyed	Pomeranian	0.3397	samoyed_147.jpg

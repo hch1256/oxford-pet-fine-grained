@@ -1,0 +1,18 @@
+# 数据集（约 800MB，不纳入版本控制）
+data/oxford-iiit-pet/
+
+# 模型权重（每个约 45MB）
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 注意：runs/ 下的 TensorBoard 日志(events.out.tfevents*)与
+# history.json 体积很小，需要提交作为「训练曲线日志」交付物，因此不忽略。

@@ -1,0 +1,23 @@
+{
+  "ckpt": "runs\\randaug\\best_model.pth",
+  "top1": 90.93381686310063,
+  "top5": 99.18404351767906,
+  "macro_f1": 0.9084487577427046,
+  "train_args": {
+    "data_dir": "./data",
+    "out_dir": "./runs/randaug",
+    "epochs": 15,
+    "batch_size": 32,
+    "lr": 0.0001,
+    "optimizer": "adamw",
+    "weight_decay": 0.0001,
+    "momentum": 0.9,
+    "label_smoothing": 0.0,
+    "mixup": 0.0,
+    "randaugment": true,
+    "freeze_backbone": false,
+    "num_workers": 4,
+    "amp": true,
+    "seed": 42
+  }
+}
