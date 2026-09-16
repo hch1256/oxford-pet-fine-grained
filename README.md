@@ -41,6 +41,43 @@
 > （目标分布含 0.1 均匀项，理论下界约 `0.1 × ln(37) ≈ 0.36`），量纲与其他两组不同。
 > 只能比较准确率、F1 与曲线形状趋势。
 
+### 训练曲线日志
+
+![三组实验收敛曲线](report_figures/fig1_curves.png)
+
+三组实验的完整训练曲线均已提交，**每个 epoch 一个数据点，共 15 点 × 5 条曲线**：
+
+| 日志路径 | 记录的标量 |
+| :--- | :--- |
+| `runs/baseline/events.out.tfevents.*` | `Loss/train`、`Loss/val`、`Accuracy/val_top1`、`F1/val_macro`、`LR` |
+| `runs/randaug/events.out.tfevents.*` | 同上 |
+| `runs/ls01/events.out.tfevents.*` | 同上 |
+
+事件文件是 TensorBoard 的二进制格式，需启动服务查看（可同时叠加三组曲线对比）：
+
+```bash
+python -m tensorboard.main --logdir ./runs --port 6006
+# 浏览器打开 http://localhost:6006
+```
+
+若只想要数值、不想装 TensorBoard：每个实验目录下的 `history.json` 以纯文本保存了
+完全相同的逐轮数据（`train_loss` / `val_loss` / `val_acc` / `val_f1` / `seconds`）。
+
+### 混淆矩阵与 Grad-CAM
+
+![混淆矩阵局部对比](report_figures/fig2_cm_zoom.png)
+
+上图裁自 37×37 混淆矩阵，覆盖 Baseline 中错分最重的 4 个类别对（8 个品种）。
+完整的 37×37 矩阵（计数版 + 行归一化版）见各实验目录下的 `confusion_matrix*.png`。
+
+| ![预测正确样例](runs/ls01/gradcam_correct.png) | ![预测错误样例](runs/ls01/gradcam_error.png) |
+| :---: | :---: |
+| English Setter，预测正确（99.9%） | Birman → Ragdoll，预测错误（94.6%） |
+
+热力图由 `layer4[-1]` 的梯度加权生成，取自最终模型（+ Label Smoothing）。
+**模型关注的区域本身是正确的**（犬只与猫的面部），错误案例属于「特征判别力不足」
+而非「注意力跑偏」——详见技术报告第 3 节。
+
 ---
 
 ## 二、目录结构
