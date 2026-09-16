@@ -1,7 +1,8 @@
 # 基于深度学习的牛津宠物细粒度图像分类
 
-> 姓名：XXX ｜ 学号：XXX ｜ 数据集：Oxford-IIIT Pet（37 类细粒度分类，7,349 张）
+> 姓名：韩承翰 ｜ 学号：W124301159 ｜ 数据集：Oxford-IIIT Pet（37 类细粒度分类，7,349 张）
 > 骨干网络：ResNet-18（ImageNet 预训练）｜ 硬件：NVIDIA RTX 4060 Laptop (8GB)
+> 代码仓库：[hch1256/oxford-pet-fine-grained](https://github.com/hch1256/oxford-pet-fine-grained)
 
 基于 ResNet-18 迁移学习实现猫狗品种细粒度分类，并系统对比了 **RandAugment** 与
 **Label Smoothing** 两种正则化策略。完整实验在单张消费级 GPU 上约 15 分钟内可复现。
