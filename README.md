@@ -1,6 +1,6 @@
 # 基于深度学习的牛津宠物细粒度图像分类
 
-> 姓名：XXX ｜ 学号：XXX ｜ 数据集：Oxford-IIIT Pet（37 类细粒度分类，7,349 张）
+> 姓名：韩承翰 ｜ 学号：W124301159 ｜ 数据集：Oxford-IIIT Pet（37 类细粒度分类，7,349 张）
 > 骨干网络：ResNet-18（ImageNet 预训练）｜ 硬件：NVIDIA RTX 4060 Laptop (8GB)
 
 基于 ResNet-18 迁移学习实现猫狗品种细粒度分类，并系统对比了 **RandAugment** 与
