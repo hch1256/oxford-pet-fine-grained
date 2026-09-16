@@ -14,5 +14,8 @@ __pycache__/
 .vscode/
 .idea/
 
+# 交付用的打包文件（内容已全部在仓库内，不重复提交）
+*.zip
+
 # 注意：runs/ 下的 TensorBoard 日志(events.out.tfevents*)与
 # history.json 体积很小，需要提交作为「训练曲线日志」交付物，因此不忽略。
