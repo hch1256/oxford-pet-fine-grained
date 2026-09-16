@@ -57,6 +57,9 @@ pet_project/
 │   └── gradcam.py            # Grad-CAM 热力图生成
 ├── train.py                  # 训练主入口（argparse 支持全部消融开关）
 ├── evaluate.py               # 评估与可视化独立脚本
+├── make_report_figures.py    # 生成技术报告图表（收敛曲线、混淆矩阵局部对比）
+├── 技术报告.md               # 技术报告源文件（导出 PDF 用）
+├── report_figures/           # 报告图表输出
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -127,7 +130,10 @@ python train.py --amp --out_dir ./runs/baseline
 # 2. 评估并生成全部可视化结果
 python evaluate.py --ckpt ./runs/baseline/best_model.pth
 
-# 3. 查看训练曲线
+# 3. 生成技术报告图表（收敛曲线 + 混淆矩阵局部对比）
+python make_report_figures.py
+
+# 4. 查看训练曲线
 python -m tensorboard.main --logdir ./runs --port 6006
 # 浏览器打开 http://localhost:6006
 ```
